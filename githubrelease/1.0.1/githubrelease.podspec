@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/"
   s.license          = 'Code is MIT, then custom font licenses.'
   s.author           = { "Orta" => "mykola.omelyanov@gmail.com" }
-  s.source           = { :git => "https://github.com/MykolaOm/privatepodinst.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/MykolaOm/privatepodinst.git", :tag => "v#{s.version}" }
 #  s.social_media_url = 'https://twitter.com/artsy'
 
   s.platform     = :ios, '11.0'
